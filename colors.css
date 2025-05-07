@@ -1,0 +1,26 @@
+:root {
+  --brown: oklch(27.25% 0.0361 49.03);
+  --green: oklch(54.07% 0.1236 126.53);
+  --purple: oklch(39.95% 0.1021 342.07);
+
+  --brand-color: var(--purple);
+  --light-brand-color: oklch(from var(--brand-color) 85% 10% h);
+  --dark-brand-color:  oklch(from var(--brand-color) 30% 20% h);
+  --alt-color: var(--green);
+  --light-alt-color: oklch(from var(--alt-color) 90% 5% h);
+  --dark-alt-color:  oklch(from var(--alt-color) 20% 10% h);
+  --contrast-color: var(--brown);
+  --light-contrast-color: oklch(from var(--contrast-color) 90% 2% h);
+  --dark-contrast-color: oklch(from var(--contrast-color) 13% 5% h);
+
+  --light-link-color: oklch(from var(--brand-color) 77% c h);
+  --light-link-visited-color: oklch(from var(--alt-color) 75% 7% h);
+
+  --dark-link-color: oklch(from var(--brand-color) 40% 11% h);
+  --dark-link-visited-color: oklch(from var(--alt-color) 35% 5% h);
+
+  /* Now basic color scheme info */
+  color-scheme: light dark;
+  background-color: light-dark(var(--light-contrast-color), var(--dark-contrast-color));
+  color: light-dark(var(--dark-brand-color), var(--light-brand-color));
+}

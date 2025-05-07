@@ -1,0 +1,28 @@
+@font-face {
+    font-family: Delius;
+    src: url("fonts/delius.regular.woff2")
+}
+
+@font-face {
+    font-family: Tangerine;
+    src: url("fonts/Tangerine_Regular.woff2");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Tangerine;
+    src: url("fonts/Tangerine_Bold.woff2");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: Romande;
+    src: url("fonts/romande-adf.style-std-regular.woff2");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Romande;
+    src: url("fonts/romande-adf.style-std-demibold.woff2");
+    font-weight: bold;
+}
