@@ -1,0 +1,6 @@
+@import url(base.css);
+
+body {
+    max-width: 70ch;
+    margin-inline: auto;
+}
