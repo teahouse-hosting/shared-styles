@@ -9,7 +9,7 @@ To get the benefits of the designed header include this markup:
   <a href="/">
     <svg class="logo" viewBox="0 0 900 900" preserveAspectRatio="xMidYMid slice" role="img">
       <title>Teahouse Hosting Company Logo</title>
-      <use href="logo.svg#teahouse-logo-path"></use>
+      <use href="/path/to/shared-assets/logo.svg#teahouse-logo-path"></use>
     </svg>
     <h1>Teahouse Hosting</h1>
   </a>
